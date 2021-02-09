@@ -6,8 +6,8 @@ After=network.target
 User=oleg
 Group=oleg
 
-WorkingDirectory=/home/xmitm/tg-script/
-Environment="PYTHONPATH=/home/xmitm/tg-script/"
+WorkingDirectory=/home/oleg/forward/
+Environment="PYTHONPATH=/home/oleg/forward/"
 ExecStart=/home/oleg/forward/.venv/bin/python /home/oleg/forward/forwardgram.py /home/oleg/forward/config.yml-sample
 
 [Install]
