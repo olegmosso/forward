@@ -3,12 +3,12 @@ Description=Telegram Bot
 After=network.target
 
 [Service]
-User=xmitm
-Group=xmitm
+User=oleg
+Group=oleg
 
 WorkingDirectory=/home/xmitm/tg-script/
 Environment="PYTHONPATH=/home/xmitm/tg-script/"
-ExecStart=/home/xmitm/tg-script/.venv/bin/python /home/xmitm/tg-script/forwardgram.py /home/xmitm/tg-script/config.yml-sample
+ExecStart=/home/oleg/forward/.venv/bin/python /home/oleg/forward/forwardgram.py /home/oleg/forward/config.yml-sample
 
 [Install]
 WantedBy=multi-user.target
