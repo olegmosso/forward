@@ -5,7 +5,6 @@ session_name: 'forwardgram' # Session name. Only one session (with a unique sess
 # The channel names that you'd like to forward messages from.
 # The user running the client must have these channels present on it's dialogs.
 input_channel_names:
-  - 'Тестовый канал N569'
   - 'Orpaw'
 
 # The output channel names that the messages will be forwarded to.
